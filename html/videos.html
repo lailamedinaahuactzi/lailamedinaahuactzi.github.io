@@ -1,0 +1,109 @@
+<!--Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+Medina Ahuactzi Laila Yexalen-->
+<html>
+   <head>
+   <title>Videos en html</title>
+   <link rel="stylesheet" href="../css/style.css" type="text/css">
+   <style type="text/css">
+       video{
+           width: 80%;
+           height: auto;
+           display: block;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 20px;
+       }
+       section{
+           width: 40%;
+           height: 650px;
+           display: inline-block;
+           margin-right: 20px;
+           margin-left: 20px;
+           overflow-y: auto;
+       }
+       main{
+           text-align: center;
+       }
+       iframe{
+           display:block;
+           margin-right: auto;
+           margin-left: auto;
+           padding: 20px;
+       }
+   </style>
+  
+   </head>
+   <body>
+        <a href="" target="_blank">
+     <img id="inicio" src="../imagenes/Inicio.png" alt="Inicio"></a>
+        <header>
+            <h1>VIDEOS</h1>
+        </header>
+        <nav>
+        <ul>
+        <li><a href="../html/formatos.html">Formatos</a></li>
+        <li><a href="../html/listas.html">Listas</a></li>
+        <li><a href="../html/enlaces.html">Enlaces</a></li>
+        <li><a href="../html/tablas.html">Tablas</a></li>
+        <li><a href="../html/imagenes.html">Imagenes</a></li>
+        <li><a href="../html/audios.html">Audios</a></li>
+        <li><a href="../html/videos.html">Videos</a></li>
+        <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+             <h2>Video simple</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum consectetur faucibus. In suscipit sapien quis nisl condimentum rutrum. Morbi eleifend magna et metus auctor, sit amet tristique orci rutrum. Sed auctor eros lorem, sed dapibus nulla facilisis nec. Nunc sem massa, commodo at varius nec, venenatis id ante. Nunc placerat non nulla vel fermentum. Phasellus congue eros eget elementum gravida. Curabitur congue non ante eu consectetur. Phasellus id tellus sit amet leo egestas dictum. In luctus est vitae ante ultricies, sed cursus lacus aliquet. Praesent vitae euismod dolor. Curabitur nec fermentum dui. Cras malesuada ornare ligula, eu ultrices lectus.</p>
+             <video controls>
+                 <source src="../videos/21460-318172490_tiny.mp4" type="video/mp4">
+                 El navegador no soporta el formato de video
+             </video>
+        </section>
+        <section>
+            <h3>Video con autoplay y silenciado</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis auctor libero, ac dapibus ipsum. Suspendisse potenti. Morbi at nunc auctor, sollicitudin erat ac, condimentum augue. Cras in lectus viverra tortor viverra suscipit at tempor massa. Sed id consequat dui, at tristique magna. Vestibulum ac rutrum neque. Phasellus aliquet molestie erat eget cursus. Suspendisse suscipit magna vitae dui commodo, ut bibendum orci egestas. Donec non elit pulvinar, tincidunt tortor eget, egestas odio.Sed libero erat, sagittis non augue non, tempor tempus dui. In non volutpat lectus. Donec bibendum quam sem, vitae commodo felis eleifend non. Fusce tempor varius eros, sed.</p>
+           <video loop autoplay muted>
+               <source src="../videos/158384-816637349_tiny.mp4" type="video/mp4">
+               El navegador no soporta el formato de video
+           </video>
+        </section>
+        <section>
+            <h4>Video con poster</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat elementum commodo. Fusce eget suscipit lectus. Phasellus ac venenatis massa. Fusce ultrices hendrerit nibh at cursus. Integer sit amet fermentum nisi. Mauris rhoncus turpis vitae eros laoreet elementum. Suspendisse tincidunt odio at sodales posuere. Fusce varius posuere ornare. Aliquam nec augue non eros imperdiet gravida. Praesent ultrices in neque ut vulputate. Integer vehicula nisl dignissim arcu fermentum laoreet. Sed mattis mi condimentum, maximus diam vel, finibus diam. Etiam scelerisque et odio vehicula blandit. Fusce aliquam mauris semper, tincidunt purus vel, egestas risus. Integer placerat, risus sit amet ultrices mattis, quam.</p>
+            <video controls poster="../imagenes/Oceano.jpg">
+                <source src="../videos/33194-396036988_small.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h5>Video de un repositorio: You Tube</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non dapibus dolor. Phasellus pharetra urna eget nisl sodales vehicula. Fusce ipsum purus, convallis ut posuere ac, posuere scelerisque orci. Suspendisse at risus facilisis, scelerisque nulla vitae, blandit dolor. Proin in lectus vitae massa porta vulputate. Nulla sed condimentum lectus, non sagittis risus. Proin id elementum dui.Fusce ultrices iaculis nisl. Proin ac leo ut magna semper sagittis at ac risus. Nunc a ante a nisi viverra laoreet non tempus nulla. Duis facilisis id elit vel rhoncus. Morbi laoreet lacus ac justo dictum hendrerit. Proin augue urna, tempus eget velit ut.</p>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/gjaSlAP9LQQ?si=EwHMu5Kmzm-awHmd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h6>Video de un repositorio: Dailymotion</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non dapibus dolor. Phasellus pharetra urna eget nisl sodales vehicula. Fusce ipsum purus, convallis ut posuere ac, posuere scelerisque orci. Suspendisse at risus facilisis, scelerisque nulla vitae, blandit dolor. Proin in lectus vitae massa porta vulputate. Nulla sed condimentum lectus, non sagittis risus. Proin id elementum dui.Fusce ultrices iaculis nisl. Proin ac leo ut magna semper sagittis at ac risus. Nunc a ante a nisi viverra laoreet non tempus nulla. Duis facilisis id elit vel rhoncus. Morbi laoreet lacus ac justo dictum hendrerit. Proin augue urna, tempus eget velit ut.</p>
+            <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=xsiiie"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>
+        </section>
+         </main>
+         <footer>
+      <h7>
+          <a  href="https://www.facebook.com/laila.medinaahuactzi/" target="_blank">
+         <img class="img_contacto" src="../imagenes/Facebook.png" alt="facebook"></a>
+          <a href="https://www.instagram.com/lay.illustration/" target="_blank">
+          <img class="img_contacto"src="../imagenes/Instagram.png" alt="instagram"></a>
+          <a href="https://www.behance.net/lailamedina" target="_blank">
+          <img  class="img_contacto" src="../imagenes/Behance.png" alt="behance"></a>
+       </h7>
+          </footer>
+    </body>
+</html>

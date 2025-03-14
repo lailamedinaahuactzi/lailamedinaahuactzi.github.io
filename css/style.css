@@ -1,0 +1,277 @@
+/*<!-- Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+Medina Ahuactzi Laila Yexalen-->*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#inicio {
+    text-align: center;
+    display: block;
+    margin: 40x auto;
+    width: 60px;
+   float: right;
+    }
+ header, nav, main, footer {
+    background-color:beige;
+    color: #583101;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px; 
+}
+nav{
+    background-color: #e9d8a6;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: goldenrod;
+    width: 10%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    marging-right: 5px;*/
+    margin: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color: #d9ed92;   
+}
+nav ul li:hover{
+    background-color: #219ebc;
+}
+section{
+    background-color: #e2ece9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    
+   
+}
+h2,h3,h4,h5,h6{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+h7 {
+    text-align: center;
+}
+footer{
+    text-align: center;
+    height:40%;
+    background-color:#bee1e6;
+    
+}
+.img_contacto{
+    width:10%;
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-align:center;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    marging-right: 5px;*/
+    margin: 10px;
+    
+}
+
+ #tabla_simple {
+    width:88 %; 
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+#tabla_simple td, #tabla_simple th{
+    text-align: center;
+    padding: 10px;
+    border-width:  5px;
+    border: 2px solid black;
+}
+#tabla_1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+}
+#tabla_1{
+    background-color:#f0ebd8;
+}
+#tabla_1 th{
+    font-size: 20px;
+    background-color:lightblue;
+    color: 748cab;
+}
+#tabla_1 th, #tabla_1 th{
+   border: 3px solid #80a996;
+      padding: 10px;
+}
+#tabla_cebra{
+    width:88%; 
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+ 
+#tabla_cebra th{
+    background-color: lightblue;
+}
+#tabla_cebra td, #tabla_cebra th{
+    padding: 10px;
+    border-width:  5px;
+    border-color: lightgray;
+    border-style: solid;
+}
+#tabla_cebra tbody tr:nth-child(even){
+     background-color: #DBB296; 
+}
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: #f0ebd8;
+}
+#tabla_hover{
+    width: 70%;
+    background-color:lightgrey;
+    color:black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_hover th{
+    background-color: lightblue;
+    color:black; 
+}
+#tabla_hover td, #tabla_hover th{
+ border-width:2px;
+    border-color: lightblue;
+    border-style: solid;
+    padding: 20px;
+ }
+    
+ #tabla_hover tr:hover{
+        background-color: yellow;
+        color:#023047;
+}
+img{
+    width:100%;
+    margin-top: 20px;
+}
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+p{ margin-top: 20px;
+}
+main section {
+    margin-left: auto;
+    margin-right: auto; 
+}
+.img_flotante{
+    width: 20%;
+    float:left;
+    margin-top: 0;
+    margin-right: 20px;  
+}
+
+.img_alineacion{
+    width: 20%;
+    float:right;
+    margin-top: 0;
+    margin left: 20px;
+}
+#fondo_box{
+    background-image: url(../imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:yellow;
+}
+.img_filter{
+    text-align: center;
+}
+.img_filter p,.img_filter h2{
+    text-align:justify;
+}
+.img_filter img{
+    width: 25%;
+    margin:20px;
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color:lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+label{
+    color:;
+    font-weight: bold;
+    font-size: 18px
+}
+input,textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:bisque;
+    color:rosybrown;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 20%;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    color:blue;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    display:block;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,textarea:focus, select:focus {
+    background-color: azure;
+    color:burlywood;
+}
+input[type=radio], input[ type= check{
+    width: 10%;
+    
+}
